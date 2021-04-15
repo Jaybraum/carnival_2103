@@ -5,7 +5,7 @@ RSpec.describe Ride do
     it '::new' do
       ride = Ride.new({name: 'Ferris Wheel', cost: 0})
 
-      expect(ride).to be_an_instance_of(Ride)
+      expect(ride).to be_instance_of(Ride)
     end
 
     it 'has attributes' do
